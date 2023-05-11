@@ -16,8 +16,8 @@ public class GameService {
 
 
     public List<GameMinDTO> findAll(){
-        //transforming into a stream, creating an instance of GameMinDTO, transforming into a list
+        
         //gameRepository.findAll().stream().map( x -> new GameMinDTO(x)).toList(); --> Another way to do it using lambda function without simplification
-        return gameRepository.findAll().stream().map(GameMinDTO::new).toList();
+        return gameRepository.findAll().stream().map(GameMinDTO::new).toList(); //transforming into a stream, creating an instance of GameMinDTO, transforming into a list
     }
 }
