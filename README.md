@@ -12,3 +12,6 @@ sdk install java
 ```command_line
 sdk install java 17.0.7.fx-zulu
 ```
+
+## License
+The MIT License (MIT). Please see [License File](LICENSE) for more information.
