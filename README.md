@@ -8,6 +8,7 @@ API REST, com o  MVC, JPA, DTO, Docker na semana Java Spring intensiva do DevSup
 ```command_line
 sdk install java
 ```
+![Tutorial](https://www.gitpod.io/guides/custom-java-distribution-on-gitpod)
 ## or
 ```command_line
 sdk install java 17.0.7.fx-zulu
