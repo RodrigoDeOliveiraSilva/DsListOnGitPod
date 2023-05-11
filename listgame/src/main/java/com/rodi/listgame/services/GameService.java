@@ -16,6 +16,7 @@ public class GameService {
 
 
     public List<Game> findAll(){
+        //Incluir aqui o retorno do DTO Min do Game
         return gameRepository.findAll();
     }
 }
