@@ -15,4 +15,4 @@ sdk install java 17.0.7.fx-zulu
 
 ## License
 The MIT License (MIT). Please see [License File](LICENSE) for more information.
-[![MIT](https://raw.githubusercontent.com/legacy-icons/license-icons/master/dist/32x32/mit.png) MIT](http://opensource.org/licenses/MIT)
+
