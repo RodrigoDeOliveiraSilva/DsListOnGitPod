@@ -9,7 +9,7 @@ API REST, com o  MVC, JPA, DTO, Docker na semana Java Spring intensiva do DevSup
 sdk install java
 ```
 
-[Tutorial](https://www.gitpod.io/guides/custom-java-distribution-on-gitpod)
+[Link Tutorial](https://www.gitpod.io/guides/custom-java-distribution-on-gitpod)
 
 ## or
 ```command_line
