@@ -8,3 +8,7 @@ API REST, with JAVA, JPA, SPRING Standard Layers at DevSuperior's Java Spring in
 ```command_line
 sdk install java
 ```
+## or
+```command_line
+sdk install java 17.0.7.fx-zulu
+```
