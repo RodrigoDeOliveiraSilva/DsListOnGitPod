@@ -1,4 +1,8 @@
-# DsListOnGitPod
+# Ds List On GitPod
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/RodrigoDeOliveiraSilva/DsListOnGitPod/blob/main/LICENSE) 
+
+
+# Sobre o projeto
 API REST, com o  MVC, JPA, DTO, Docker na semana Java Spring intensiva do DevSuperior.
 
 ## Modelo de domínio DSList
