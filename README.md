@@ -10,15 +10,6 @@ API REST, com o  MVC, JPA, DTO, Docker na semana Java Spring intensiva do DevSup
 
 # Como executar o projeto
 
-## To update Java 17 from the GitPod Environment use: [Link Tutorial](https://www.gitpod.io/guides/custom-java-distribution-on-gitpod)
-```bash
-sdk install java 
-```
-## or
-```bash
-sdk install java 17.0.7.fx-zulu
-```
-
 ### Spring localization bug fix - GitPod
 ```bash
 cd listgame
