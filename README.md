@@ -18,8 +18,7 @@ cd listgame
 ```bash
 cd ..
 ```
-#### subir containers 
-na raiz do projeto onde se encontra o arquivo "docker-compose.yml", utilize no terminal:
+#### subir containers na raiz do projeto onde se encontra o arquivo "docker-compose.yml", utilize no terminal:
 ```bash
 docker-compose up -d
 ```
@@ -27,10 +26,10 @@ docker-compose up -d
 ```bash
 ./mvnw spring-boot:run
 ```
-#### parar Projeto
-Utilizar o Atalho do Teclado no terminal "Ctrl + C"
-##### Spring localization bug fix - GitPod
-Utilize no terminal na raiz na pasta /listgame
+#### parar Projeto utilizando o Atalho do Teclado no terminal 
+#### "Ctrl + C"
+##### Correção de bug de localização do Spring - GitPod -  Utilizando o terminal na raiz na pasta /listgame
+
 ```bash
 mvn clean
 ```
