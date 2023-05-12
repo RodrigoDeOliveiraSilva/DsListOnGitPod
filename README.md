@@ -10,10 +10,16 @@ API REST, com o  MVC, JPA, DTO, Docker na semana Java Spring intensiva do DevSup
 
 # Como executar o projeto
 
-### Spring localization bug fix - GitPod
+# entrar na pasta do projeto back end
 ```bash
 cd listgame
 ```
+# executar o projeto
+```bash
+./mvnw spring-boot:run
+```
+### Spring localization bug fix - GitPod
+
 ```bash
 mvn clean
 ```
