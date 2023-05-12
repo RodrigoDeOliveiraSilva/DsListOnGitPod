@@ -14,6 +14,10 @@ API REST, com o  MVC, JPA, DTO, Docker na semana Java Spring intensiva do DevSup
 ```bash
 cd listgame
 ```
+# saí da pasta do back end
+```bash
+cd ..
+```
 # executar o projeto
 ```bash
 ./mvnw spring-boot:run
