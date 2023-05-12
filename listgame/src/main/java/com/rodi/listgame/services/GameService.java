@@ -8,7 +8,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.rodi.listgame.dto.GameDTO;
 import com.rodi.listgame.dto.GameMinDTO;
-import com.rodi.listgame.projections.GameMinProjection;
 import com.rodi.listgame.repositories.GameRepository;
 
 @Service
