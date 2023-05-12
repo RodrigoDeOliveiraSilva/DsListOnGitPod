@@ -28,6 +28,8 @@ docker-compose up -d
 ```
 #### parar Projeto utilizando o Atalho do Teclado no terminal 
 #### "Ctrl + C"
+
+# Correção de Bugs do GitPod
 ##### Correção de bug de localização do Spring - GitPod -  Utilizando o terminal na raiz na pasta /listgame
 
 ```bash
