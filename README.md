@@ -10,7 +10,7 @@ API REST, com o  MVC, JPA, DTO, Docker na semana Java Spring intensiva do DevSup
 
 # Como executar o projeto
 
-# entrar na pasta do projeto back end
+### entrar na pasta do projeto back end
 ```bash
 cd listgame
 ```
