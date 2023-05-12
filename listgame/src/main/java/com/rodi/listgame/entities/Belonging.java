@@ -3,10 +3,14 @@ package com.rodi.listgame.entities;
 import java.io.Serializable;
 
 import jakarta.persistence.EmbeddedId;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
 
+@Entity
+@Table(name = "tb_belonging")
 public class Belonging implements Serializable{
     private static final long serialVersionUID = 1L;
-    
+
     @EmbeddedId
     private BelongingPK id = new BelongingPK();
 
