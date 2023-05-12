@@ -14,18 +14,23 @@ API REST, com o  MVC, JPA, DTO, Docker na semana Java Spring intensiva do DevSup
 ```bash
 cd listgame
 ```
-# saí da pasta do back end
+### saí da pasta do back end
 ```bash
 cd ..
 ```
-# executar o projeto
+#### subir containers 
+na raiz do projeto onde se encontra o arquivo "docker-compose.yml", utilize no terminal:
+```bash
+docker-compose up -d
+```
+#### executar o projeto
 ```bash
 ./mvnw spring-boot:run
 ```
-# parar Projeto
+#### parar Projeto
 Utilizar o Atalho do Teclado no terminal "Ctrl + C"
-### Spring localization bug fix - GitPod
-
+##### Spring localization bug fix - GitPod
+Utilize no terminal na raiz na pasta /listgame
 ```bash
 mvn clean
 ```
