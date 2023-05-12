@@ -19,7 +19,7 @@ cd listgame
 ./mvnw spring-boot:run
 ```
 # parar Projeto
-Atalho do Teclado "Ctrl + C"
+Utilizar o Atalho do Teclado no terminal "Ctrl + C"
 ### Spring localization bug fix - GitPod
 
 ```bash
