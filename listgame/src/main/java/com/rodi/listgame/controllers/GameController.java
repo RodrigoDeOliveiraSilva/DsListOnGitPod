@@ -12,7 +12,6 @@ import com.rodi.listgame.dto.GameDTO;
 import com.rodi.listgame.dto.GameMinDTO;
 import com.rodi.listgame.services.GameService;
 
-import jakarta.websocket.server.PathParam;
 
 @RestController
 @RequestMapping(value = "/games")
