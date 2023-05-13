@@ -39,3 +39,6 @@ mvn clean
 mvn install
 ```
 
+#### for testing in development, create database "dslist" 
+#### so that the property configured in the resource does not give an error.
+
