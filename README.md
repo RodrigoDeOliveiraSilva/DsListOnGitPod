@@ -33,9 +33,9 @@ mvn clean
 mvn install
 ```
 
-#### for testing in development, create database "dslist" 
-#### so that the property configured in the resource does not give an error.
-### I left the back end folder to run docker for testing in development
+# for testing in development, create database "dslist" 
+### so that the property configured in the resource does not give an error.
+#### I left the back end folder to run docker for testing in development
 ```bash
 cd ..
 ```
