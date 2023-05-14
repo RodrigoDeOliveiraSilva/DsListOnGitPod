@@ -5,7 +5,7 @@
 # About the project
 REST API, with MVC, JPA, DTO, Docker, CORS config Spring in DevSuperior intensive Java Spring week.
 
-## Domain Model DSList
+## Domain Model DSListGames
 ![dslist-model](https://github.com/RodrigoDeOliveiraSilva/DsListOnGitPod/assets/97246882/44e69a71-a6b3-4597-ad5a-9f03baf67d94)
 
 # How to run the project
