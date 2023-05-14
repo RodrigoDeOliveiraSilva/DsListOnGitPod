@@ -43,5 +43,8 @@ cd ..
 ```bash
 docker-compose up -d
 ```
-
-
+#### After uploading the containers, access PgAdmin on port 5050.
+### 1. connect to postgres
+#### 2. Create DataBase "dslist"
+#### 3. set profile to dev
+#### 4. Run the backend project
