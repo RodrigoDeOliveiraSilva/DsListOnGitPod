@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.rodi.listgame.dto.GameListDTO;
 import com.rodi.listgame.dto.GameMinDTO;
+import com.rodi.listgame.dto.ReplacementDTO;
 import com.rodi.listgame.services.GameListService;
 import com.rodi.listgame.services.GameService;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -36,7 +37,10 @@ public class GameListController {
         return gameService.findByList(gameListId);
     }
 
-
+    @PostMapping(value = "/{gameListId}/games")
+    public void move(@PathVariable Long gameListId, @RequestBody ReplacementDTO body){
+        gameListService.move(gameListId,body.getSourceIndex(), body.getDestinatIndex());
+    }
     
     
 }
