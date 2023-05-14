@@ -23,7 +23,7 @@ cd backend
 
 
 
-# Correção de Bugs do GitPod
+# GitPod Bug Fixes
 ##### Spring localization bug fix - GitPod - Using terminal in root in /backend folder
 
 ```bash
