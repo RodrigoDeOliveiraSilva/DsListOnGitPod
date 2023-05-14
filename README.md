@@ -24,7 +24,7 @@ cd backend
 
 
 # Correção de Bugs do GitPod
-##### Correção de bug de localização do Spring - GitPod -  Utilizando o terminal na raiz na pasta /listgame
+##### Correção de bug de localização do Spring - GitPod -  Utilizando o terminal na raiz na pasta /backend
 
 ```bash
 mvn clean
