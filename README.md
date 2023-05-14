@@ -12,7 +12,7 @@ REST API, with MVC, JPA, DTO, Docker, CORS config Spring in DevSuperior intensiv
 
 ### entrar na pasta do projeto back end
 ```bash
-cd listgame
+cd backend
 ```
 #### Run The roject
 ```bash
