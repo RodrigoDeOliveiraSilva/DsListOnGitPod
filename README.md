@@ -35,7 +35,7 @@ mvn install
 
 # For testing in development, create database "dslist" 
 ### so that the property configured in the resource does not give an error.
-#### I left the back end folder to run docker for testing in development
+#### Return the root folder to upload the container
 ```bash
 cd ..
 ```
