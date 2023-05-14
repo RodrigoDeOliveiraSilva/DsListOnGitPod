@@ -12,6 +12,9 @@ import com.rodi.listgame.dto.GameListDTO;
 import com.rodi.listgame.dto.GameMinDTO;
 import com.rodi.listgame.services.GameListService;
 import com.rodi.listgame.services.GameService;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+
 
 @RestController
 @RequestMapping(value = "/lists")
@@ -32,5 +35,8 @@ public class GameListController {
     public List<GameMinDTO> findByList(@PathVariable Long gameListId){
         return gameService.findByList(gameListId);
     }
+
+
+    
     
 }
