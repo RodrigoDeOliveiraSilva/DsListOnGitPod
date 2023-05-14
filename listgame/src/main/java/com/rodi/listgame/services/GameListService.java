@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.rodi.listgame.dto.GameListDTO;
-import com.rodi.listgame.dto.GameMinDTO;
+
 import com.rodi.listgame.projections.GameMinProjection;
 import com.rodi.listgame.repositories.GameListRepository;
 import com.rodi.listgame.repositories.GameRepository;
@@ -26,10 +26,17 @@ public class GameListService {
         return gameListRepository.findAll().stream().map(GameListDTO::new).toList();
     }
 
+    @Transactional
     public void move(Long listGameId, int sourceIndex, int destinatIndex){
         List<GameMinProjection> list = gameRepository.searchByList(listGameId);
         GameMinProjection objGame = list.remove(sourceIndex); // Remove and save to a variable
         list.add(destinatIndex, objGame); // Adding the object in the variable in the new position of the list
+        int min = sourceIndex < destinatIndex ? sourceIndex : destinatIndex;
+        int max = sourceIndex > destinatIndex ? sourceIndex : destinatIndex;
+
+        for(int i =min; i <= max; i++){
+            gameListRepository.updateBelongingPosition(listGameId, list.get(i).getId(), i);
+        }
     }
     
 }
