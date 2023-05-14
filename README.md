@@ -10,7 +10,7 @@ REST API, with MVC, JPA, DTO, Docker, CORS config Spring in DevSuperior intensiv
 
 # How to run the project
 
-### entrar na pasta do projeto back end
+### Enter the backend project folder
 ```bash
 cd backend
 ```
@@ -24,7 +24,7 @@ cd backend
 
 
 # Correção de Bugs do GitPod
-##### Correção de bug de localização do Spring - GitPod -  Utilizando o terminal na raiz na pasta /backend
+##### Spring localization bug fix - GitPod - Using terminal in root in /backend folder
 
 ```bash
 mvn clean
