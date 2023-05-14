@@ -18,7 +18,7 @@ cd backend
 ```bash
 ./mvnw spring-boot:run
 ```
-#### stop Project using Keyboard Shortcut in terminal
+### Stop Project using Keyboard Shortcut in terminal
 #### "Ctrl + C"
 
 
