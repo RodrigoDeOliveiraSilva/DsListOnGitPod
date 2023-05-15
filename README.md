@@ -33,7 +33,7 @@ mvn clean
 mvn install
 ```
 
-# For testing in development, create database "dslist" 
+# For testing in development
 ### so that the property configured in the resource does not give an error.
 #### Return the root folder to upload the container
 ```bash
