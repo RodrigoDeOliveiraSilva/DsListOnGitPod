@@ -14,7 +14,7 @@ REST API, with MVC, JPA, DTO, Docker, CORS config Spring, CI/CD in DevSuperior i
 ```bash
 cd backend
 ```
-#### Run The roject
+#### Run The project
 ```bash
 ./mvnw spring-boot:run
 ```
