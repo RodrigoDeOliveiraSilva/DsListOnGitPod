@@ -1,4 +1,4 @@
-package com.rodi.listgame.controllers;
+package com.rodi.backend.controllers;
 
 import java.util.List;
 
@@ -8,11 +8,12 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.rodi.listgame.dto.GameListDTO;
-import com.rodi.listgame.dto.GameMinDTO;
-import com.rodi.listgame.dto.ReplacementDTO;
-import com.rodi.listgame.services.GameListService;
-import com.rodi.listgame.services.GameService;
+import com.rodi.backend.dto.GameListDTO;
+import com.rodi.backend.dto.GameMinDTO;
+import com.rodi.backend.dto.ReplacementDTO;
+import com.rodi.backend.services.GameListService;
+import com.rodi.backend.services.GameService;
+
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 

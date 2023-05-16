@@ -1,4 +1,4 @@
-package com.rodi.listgame.entities;
+package com.rodi.backend.entities;
 
 import jakarta.persistence.Embeddable;
 import jakarta.persistence.JoinColumn;

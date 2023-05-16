@@ -1,4 +1,4 @@
-package com.rodi.listgame.services;
+package com.rodi.backend.services;
 
 import java.util.List;
 
@@ -6,9 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.rodi.listgame.dto.GameDTO;
-import com.rodi.listgame.dto.GameMinDTO;
-import com.rodi.listgame.repositories.GameRepository;
+import com.rodi.backend.dto.GameDTO;
+import com.rodi.backend.dto.GameMinDTO;
+import com.rodi.backend.repositories.GameRepository;
 
 @Service
 public class GameService {

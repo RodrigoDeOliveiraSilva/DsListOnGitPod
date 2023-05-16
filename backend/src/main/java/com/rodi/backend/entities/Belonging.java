@@ -1,4 +1,4 @@
-package com.rodi.listgame.entities;
+package com.rodi.backend.entities;
 
 import java.io.Serializable;
 

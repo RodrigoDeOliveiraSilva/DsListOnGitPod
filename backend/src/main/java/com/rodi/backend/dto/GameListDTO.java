@@ -1,8 +1,8 @@
-package com.rodi.listgame.dto;
+package com.rodi.backend.dto;
 
 import org.springframework.beans.BeanUtils;
 
-import com.rodi.listgame.entities.GameList;
+import com.rodi.backend.entities.GameList;
 
 public class GameListDTO {
     

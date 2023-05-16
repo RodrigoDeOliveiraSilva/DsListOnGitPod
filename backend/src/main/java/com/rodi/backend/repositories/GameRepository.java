@@ -1,12 +1,12 @@
-package com.rodi.listgame.repositories;
+package com.rodi.backend.repositories;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
-import com.rodi.listgame.entities.Game;
-import com.rodi.listgame.projections.GameMinProjection;
+import com.rodi.backend.entities.Game;
+import com.rodi.backend.projections.GameMinProjection;
 
 public interface GameRepository extends JpaRepository<Game, Long>{
 

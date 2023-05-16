@@ -1,4 +1,4 @@
-package com.rodi.listgame.projections;
+package com.rodi.backend.projections;
 
 public interface GameMinProjection {
 

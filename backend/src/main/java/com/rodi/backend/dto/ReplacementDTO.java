@@ -1,4 +1,4 @@
-package com.rodi.listgame.dto;
+package com.rodi.backend.dto;
 
 public class ReplacementDTO {
 

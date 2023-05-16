@@ -1,7 +1,7 @@
-package com.rodi.listgame.dto;
+package com.rodi.backend.dto;
 
-import com.rodi.listgame.entities.Game;
-import com.rodi.listgame.projections.GameMinProjection;
+import com.rodi.backend.entities.Game;
+import com.rodi.backend.projections.GameMinProjection;
 
 public class GameMinDTO {
  
